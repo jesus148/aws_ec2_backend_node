@@ -67,7 +67,7 @@ if(process.env.NODE_ENV === "production"){
 
 
 // asigna puerto
-app.listen(PORT , ()=>{
+app.listen(PORT , '0.0.0.0', ()=>{
     connectDB();
     console.log("server started at http://localhost: " + PORT);
 })
