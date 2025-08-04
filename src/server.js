@@ -58,6 +58,10 @@ if(process.env.NODE_ENV === "production"){
 
 
 
+app.get('/' , ()=>{
+    console.log("test");
+    res.send("Servidor funcionando correctamente");
+})
 
 
 
