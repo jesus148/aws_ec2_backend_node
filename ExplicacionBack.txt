@@ -28,6 +28,7 @@ https://www.youtube.com/watch?v=O3BUHwfHf84
 5. 
   Parte de ===========MONGODBATLAS============ : basicamente tu bd en la nube
 
+  > es con mi cuenta de correo
   > en la parte de arriba > proyect > new proyect
 
   > name your proyect > poner el nombre > next
@@ -72,6 +73,11 @@ https://www.youtube.com/watch?v=O3BUHwfHf84
        abajo aparecen o crearas tus bd       
     > overview > en la parte de arriba > clusters > browser collections > collections > refresh(arriba lado derecho) 
      para refrescar las bd 
+
+
+  > recordar 
+  # ojo : con esta cadena (.env) puedes conectarte desde mongoatlas , osea usar mongoatlas y abrirlo en tu mongodbcomposlocal
+    # mi mongodb esta cerrado en segundo plano por lo tanto en windows + r (mongod.exe)   
 
 
  6. 
