@@ -1,0 +1,79 @@
+
+https://www.youtube.com/watch?v=O3BUHwfHf84
+2:04:41
+
+1.
+  PS C:\Users\jesus\Desktop\JESUS\REACT JS\PORTAFOLIO\mern_crud_reatc_2> npm init -y
+
+2. 
+  creacion de modulos 
+   PS C:\Users\jesus\Desktop\JESUS\REACT JS\PORTAFOLIO\mern_crud_reatc_2> npm install express mongoose dotenv
+   PS C:\Users\jesus\Desktop\JESUS\REACT JS\PORTAFOLIO\mern_crud_reatc_2> npm i nodemon -D
+
+3. 
+  usando los imports en js
+   > en el package.json > agrega esto  "type": "module",
+
+
+4. 
+  ejecutar el BACKEND ===================
+  "scripts": {
+    "dev": "nodemon backend/server.js"
+  },
+
+  PS C:\Users\jesus\Desktop\JESUS\REACT JS\PORTAFOLIO\mern_crud_reatc_2> npm run dev  
+
+
+
+5. 
+  Parte de ===========MONGODBATLAS============ : basicamente tu bd en la nube
+
+  > en la parte de arriba > proyect > new proyect
+
+  > name your proyect > poner el nombre > next
+
+  > create a proyect > create project
+    
+  > overview > create a cluster > create
+
+  > deploy your cluster > selecciona plan free 
+    > al final poner create deployment
+
+  > connect to cluster(name de tu cluster)
+     > mi ip actual : 38.253.148.255
+     > guarda el username y el password copialos
+      username : jorgecop149 y el password :aaBmYOsMP6dNctcw
+     > create dabaseuser : selecciona 
+   
+  > ojo : recordar para regresar al menu general de tu cluster o tu bd selecciona 
+        selecciona en la parte de arriba overview o data services
+
+  > overview  > Application Development > get connection string 
+    ojo : selecciona tu lenguaje de tu back en este caso js y nodejs
+
+
+  > connect to Cluster0(name de tu cluster) > Add your connection string into your application code >
+      sala la url para connectar tu bd con tu backend
+      ejemplo : mongodb+srv://jorgecop149:<db_password>@cluster0.e0w6f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0 
+        <db_password> : pon el password de tu cluster
+        net/.....? : remplazar los .... por el nombre de tu bd ponerlo
+
+  >   overview o selecciona data services > network acces > 
+     > add ip address > selecciona allow acces from anywhere    
+          aparece en el Access List Entry: 0.0.0.0/0 
+     > esto demora un poco de tiempo
+     > basicamente con esto podemos o el cliente hacer solicitudes , en este caso cualquier cliente 
+         los clientes que tienen acceso hacer solicitud a la bd aparece en el Network Access
+
+
+  > para ver las bd y las colleciones de tu bd 
+    > overview > en la parte de arriba > clusters > browser collections 
+       sample_mflix : es la bd x default de mongo 
+       abajo aparecen o crearas tus bd       
+    > overview > en la parte de arriba > clusters > browser collections > collections > refresh(arriba lado derecho) 
+     para refrescar las bd 
+
+
+ 6. 
+    Creacion de folder y files que no veas debe crearse
+           
